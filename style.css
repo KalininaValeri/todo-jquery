@@ -1,0 +1,40 @@
+.material-icons {
+    font-size: 16px;
+}
+
+li {
+    padding-left: 40px;
+}
+
+ul.only-active li.made,
+ul.only-checked li,
+.btn.btn-link.btn-xs.pull-right,
+li input[type=text],
+.editor .btn.btn-link.btn-xs.pull-right,
+.editor .checkbox,
+.row {
+    display: none;
+}
+
+ul.only-checked li.made,
+.checkbox:hover .btn.btn-link.btn-xs.pull-right,
+.editor input[type = text],
+.row.active {
+    display: block;
+}
+
+.input-group-addon {
+    visibility: hidden;
+}
+
+.input-group-addon.visible {
+    visibility: visible;
+}
+
+.checkbox button:after{
+    content: 'x';
+}
+
+.made div {
+    text-decoration: line-through;
+}

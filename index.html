@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>todo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="text-center">todos</h1>
+    <div class="input-group">
+        <span class="input-group-addon">
+            <i class="material-icons">done</i>
+        </span>
+        <input type="text" id="dataEntry" class="form-control" placeholder="Что нужно сделать?">
+    </div>
+    <ul id="list" class="list-unstyled">
+        <!--<li class="made">
+            <div class="checkbox">
+                <button type="button" class="btn btn-link btn-xs pull-right">
+
+                </button>
+                <input type="checkbox">
+                <div>Постирать</div>
+            </div>
+            <input type="text" class="form-control" value="123">
+        </li>
+        <li>
+            <div class="checkbox">
+                <button type="button" class="btn btn-link btn-xs pull-right">
+                    &lt;!&ndash;<i class="material-icons">close</i>&ndash;&gt;
+                </button>
+                <input type="checkbox">
+                <div>Постирать</div>
+            </div>
+            <input type="text" class="form-control">
+        </li>
+        <li class="editor">
+            <div class="checkbox">
+                <button type="button" class="btn btn-link btn-xs pull-right">
+                    &lt;!&ndash;<i class="material-icons">close</i>&ndash;&gt;
+                </button>
+                <input type="checkbox">
+                <div>Постирать</div>
+            </div>
+            <input type="text" class="form-control">
+        </li>-->
+    </ul>
+    <div class="row active">
+        <div class="col-xs-3">
+            <span id="counterItems">3</span> незавершенных задания
+        </div>
+        <div class="col-xs-6 text-center">
+            <button type="button" id="allItemsList" class="btn btn-default btn-xs">Все</button>
+            <button type="button" id="activeItemsList" class="btn btn-default btn-xs">Активные</button>
+            <button type="button" id="madeItemsList" class="btn btn-default btn-xs">Cделанные</button>
+        </div>
+        <div class="col-xs-3 text-right">
+            <button type="button" id="deleteAllMade" class="btn btn-link btn-xs">Удалить сделанные</button>
+        </div>
+    </div>
+</div>
+<script src="./jquery-3.1.0.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
